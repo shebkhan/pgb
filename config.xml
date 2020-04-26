@@ -86,7 +86,8 @@
     <gap:plugin name="cordova-plugin-statusbar" source="npm" />
 		
 	<!--END OF PLUGIN-->
-	    	
+	    	    <gap:plugin name="cordova-plugin-cszbar" source="npm" spec="1.3.4"  />
+
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
        
