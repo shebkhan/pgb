@@ -884,24 +884,16 @@
 <template id="home.html">
 <ons-page id="home" modifier="" class="image_loaded"  >
 
-   <ons-toolbar modifier="no_shadow is_rtl">      
-      <div class="center">                
-        <ons-row>
-          <!-- <ons-col width="70px"><span class="trn tooltip_home">Deliver to</span>:</ons-col>
-          <ons-col class="concat_text orange_color">
-             <ons-toolbar-button onclick="ReSelectLocation();" style="display:inline;">
-              <span class="print_location_address"></span>
-              </ons-toolbar-button>              
-          </ons-col> -->
-          <ons-col><span class="trn tooltip_home">QR</span>:</ons-col>
-
-        </ons-row>
-      </div>
-      <!--<div class="right">
-       right
-      </div>-->
-    </ons-toolbar>
-    
+  <ons-toolbar modifier="no_shadow is_rtl">      
+    <div class="center">                
+      <ons-button  onclick="getَQRCode()">          
+        QR         
+       </ons-button>
+    </div>
+    <!--<div class="right">
+     right
+    </div>-->
+  </ons-toolbar>
   <ons-pull-hook id="home_pull_hook">
     <span class="trn">Pull to refresh</span>
   </ons-pull-hook>  

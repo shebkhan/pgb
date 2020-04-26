@@ -9208,4 +9208,16 @@ function in_array(needle, haystack, argStrict) {
     return false;
 }
 
+
+getَQRCode = function () {
+	cloudSky.zBar.scan({}, function(code){
+		if(code!=""){
+			loadMerchant(code);
+		}
+	}, function(e){
+		alert(e);
+	})
+ 
+
+}
 /*END OF SCRIPT*/
