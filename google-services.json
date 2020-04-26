@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "636979746198",
+    "firebase_url": "https://ristasa-ok.firebaseio.com",
+    "project_id": "ristasa-ok",
+    "storage_bucket": "ristasa-ok.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636979746198:android:73a0df2ddb181c4450f9b7",
+        "android_client_info": {
+          "package_name": "com.rista.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636979746198-013h306p3oa90mbc6qa5muotl34u3b0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGNAUDdXbN-nLHqpadxwBKPl5T78Ff9a8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636979746198-013h306p3oa90mbc6qa5muotl34u3b0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
